@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.father {
+    background: url("img/hero image.png") no-repeat center/cover;
+    height: 900px;
+}
+.wrap {
+    flex-direction: column;
+    row-gap: 204px;
+    padding: 50px 165px;
+}
+.header-top {
+    justify-content: space-between;
+}
+.header-nav,.nav-menu,.header-contact-phone, .header_bottom,
+.header__bottom_description,.header-top, .wrap ,.header_content{
+    display: flex;
+}
+.header-nav {
+    column-gap: 15px;
+    align-items: center;
+}
+.nav-menu {
+    align-items: center;
+    column-gap: 23px;
+}
+.nav-menu p,.header-contact-info p, .header-contact-phone p,
+.header_content p, .header_button {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+}
+.nav-menu p,.header_button {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}
+.header-contact {
+    padding-left: 34px;
+    margin-right: 50px;
+}
+.header-contact-phone img{
+    margin-right: 8px;
+}
+.header-contact-phone p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+.header-contact-info {
+    font-size: 14px;
+    line-height: 19px;
+    width: 154px;
+    height: 38px;
+}
+.header_button {
+    background-color: #FF7400;
+    padding: 14px 18px;
+    width: 157px;
+    height: 47px;
+    border: none;
+    cursor: pointer;
+}
+.nav-menu::after {
+    content: "";
+    height: 51px;
+    border: 1px solid #FFFFFF;
+}
+.header_content h2,.header_content h1,
+.header__bottom_description span {
+    color: #D67E35;
+}
+.header_content h2 {
+    font-size: 50px;
+    line-height: 57px;
+    font-weight: normal;
+}
+.header_content h1 {
+    font-size: 80px;
+    line-height: 92px;
+    font-weight: normal;
+}
+.header_content p {
+    font-size: 18px;
+    line-height: 25px;
+    column-gap: 8px;
+    display: flex;
+    align-items: center;
+}
+.header_content p::before, .header_content p::after {
+    content: "";
+    width: 61px;
+    border: 2px solid #FFFFFF;
+}
+.header_content {
+    width: 550px;
+    flex-direction: column;
+    align-items: center;
+}
+.header_content button {
+    margin-top: 21px;
+}
+.header_bottom {
+    position: relative;
+    column-gap: 31px;
+}
+.header__bottom_description {
+    width: 349px;
+    height: 328px;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    padding: 35px 15px 0px;
+    align-items: center;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.1);
+}
+.header__bottom_description h3,.header__bottom_description p {
+    font-size: 26px;
+    line-height:  30px;
+}
+.header__bottom_description p {
+    color: #656363;
+    padding-top: 15px;
+    text-align: center;
+}

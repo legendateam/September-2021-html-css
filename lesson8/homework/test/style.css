@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+ol, ul {
+    list-style: none;
+}
+body {
+    line-height: 1;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Tinos', serif;
+}
+.header {
+    background: url("../img/hero image.png") no-repeat center/cover;
+    height: 800px;
+}
+.nav-contact-feedback,.header-nav-list a,.header-nav-phone p,
+.btn-primary {
+    font-family: "Open Sans";
+}
+.header-nav-list a,.header-nav-phone p,
+.btn-primary {
+    font-weight: bold;
+}
+.header-nav-list a,.header-nav-phone p,.nav-contact-feedback {
+    color: #FFFFFF;
+}
+.header-nav-list a,.nav-contact-feedback,.btn-primary {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 19px;
+}
+.wrapper {
+    padding: 0 165px;
+}
+.header_top {
+    padding-top: 50px;
+}
+.header-nav-phone p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.nav-contact-feedback {
+    width: 154px;
+    height: 38px;
+}
+.btn-primary {
+    background-color: #FF7400;
+    border: none;
+    border-radius: 0;
+}
+.header-nav-list::after {
+    content: "";
+    display: block;
+    border: 1px solid #FFFFFF;
+    height: 51px;
+    margin-right: 34px;
+}
+
+.header_center h2,h1  {
+    color: #D67E35;
+}
+.header_center p  {
+    color: #FFFFFF;
+}
+.header_center h2 {
+    font-size: 50px;
+    line-height: 57px;
+}
+.header_center h1 {
+    font-size: 80px;
+    line-height: 92px;
+}
+.header_center p::before,.header_center p::after {
+    content: "";
+    display: flex;
+    border: 2px solid #C4C4C4;
+    width: 61px;
+}
+.header_center {
+    width: 556px;
+    margin-top: 203px;
+}
+.header_card_menu {
+    font-size: 26px;
+    line-height: 30px;;
+}
+.card {
+    border-radius: 0;
+    width: 349px;
+    height: 328px
+}
+.card img {
+    width: 87px;
+    height: 87px;
+}
+.card-body p {
+    color: #656363;
+}
+.card-body p, .card-body h5{
+    text-align: center;
+}
+.header_bottom {
+    position: relative;
+    top: 124px;
+}
+.card-body {
+    padding: 0;
+}
+.card-body span {
+    color: #D67E35;;
+}

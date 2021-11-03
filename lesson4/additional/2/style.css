@@ -1,0 +1,56 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+.background-margin {
+    background: #9c9c9c;
+    margin: 4px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-in-header, .right-in-right, .box-in-left-a, .box-in-left-b,
+.box-in-left-c, .box-in-left-d, .box-in-left-e, .box-in-left-f {
+    width: 100px;
+    height: 50px;
+}
+.main-menu {
+    height: 320px;
+    width: 1220px;
+}
+.wrap, .nav-menu, .content {
+    display: flex;
+}
+.box-in-nav-menu-1 , .box-in-nav-menu-2 ,.box-in-nav-menu-3,
+.box-in-nav-menu-4 {
+    width: 299px;
+    height: 100px;
+}
+.content-box-1, .content-box-2, .content-box-3, .content-box-4,
+.content-box-5, .content-box-6, .content-box-7, .content-box-8,
+.content-box-9, .content-box-10, .content-box-11, .content-box-11,
+.content-box-12 {
+    width: 505px;
+    height: 100px;
+}
+.box-right-menu-1, .box-right-menu-2, .box-right-menu-3,
+.box-right-menu-4 {
+    width: 195px;
+    height: 50px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-footer-a {
+    width: 1215px;
+    height: 25px;
+}
+.box-footer-b {
+    width: 100px;
+    height: 25px;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,1471 @@
+@media screen and (max-width: 279px) {
+    .wrap {
+        padding: 0 14px;
+    }
+    .wrapper {
+        padding: 20px 0;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        font-size: 10px;
+        line-height: 10px;
+        position: absolute;
+        top: 60px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        width: 200px;
+        position: relative;
+        padding-left: 25px;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 300px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        width: 220px;
+        height: 236px;
+        padding: 0 15px 40px;
+        justify-content: center;
+    }
+    .header__bottom_description h3, .header__bottom_description p {
+        font-size: 20px;
+        line-height: 15px;
+    }
+    .header__main_content h2 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .header__main_content h1{
+        font-size: 25px;
+        line-height: 26px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 280px) and (max-width: 303px) {
+    .wrap {
+        padding: 0 30px;
+    }
+    .wrapper {
+        padding: 20px 0;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        font-size: 10px;
+        line-height: 15px;
+        position: absolute;
+        top: 120px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        width: 250px;
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 240px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        width: 250px;
+        height: 256px;
+        padding: 35px 15px 50px;
+        justify-content: center;
+    }
+    .header__main_content h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .header__main_content h1{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 304px) and (max-width: 313px) {
+    .wrap {
+        padding: 0 14px;
+    }
+    .wrapper {
+        padding: 20px 0;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        font-size: 15px;
+        line-height: 20px;
+        position: absolute;
+        top: 120px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        width: 290px;
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 280px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        width: 260px;
+        height: 246px;
+        padding: 0 15px 40px;
+        justify-content: center;
+    }
+    .header__main_content h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__main_content h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 314px) and (max-width: 322px) {
+    .wrap {
+        padding: 0 14px;
+    }
+    .wrapper {
+        padding: 20px 0;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        font-size: 15px;
+        line-height: 20px;
+        position: absolute;
+        top: 120px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        width: 300px;
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 280px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        width: 270px;
+        height: 256px;
+        padding: 0 15px 40px;
+        justify-content: center;
+    }
+    .header__main_content h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__main_content h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 323px) and (max-width: 333px) {
+    .wrap {
+        padding: 0 14px;
+    }
+    .wrapper {
+        padding: 20px 0;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        font-size: 15px;
+        line-height: 20px;
+        position: absolute;
+        top: 120px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        width: 310px;
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 280px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        width: 290px;
+        height: 276px;
+        padding: 0 15px 40px;
+        justify-content: center;
+    }
+    .header__main_content h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__main_content h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 334px) and (max-width: 343px) {
+    .wrap {
+        padding: 0 14px;
+    }
+    .wrapper {
+        padding: 20px 0;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        font-size: 15px;
+        line-height: 20px;
+        position: absolute;
+        top: 120px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        width: 320px;
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 280px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        width: 290px;
+        height: 276px;
+        padding: 0 15px 40px;
+        justify-content: center;
+    }
+    .header__main_content h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__main_content h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 344px) and (max-width: 362px) {
+    .wrap {
+        padding: 0 14px;
+    }
+    .wrapper {
+        padding: 20px 0;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        font-size: 15px;
+        line-height: 20px;
+        position: absolute;
+        top: 120px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        width: 330px;
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 280px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        width: 290px;
+        height: 276px;
+        padding: 0 15px 40px;
+        justify-content: center;
+    }
+    .header__main_content h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__main_content h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 363px) and (max-width: 380px) {
+    .wrap {
+        padding: 0 14px;
+    }
+    .wrapper {
+        padding: 20px 0;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        font-size: 15px;
+        line-height: 20px;
+        position: absolute;
+        top: 120px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        width: 348px;
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 280px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        width: 290px;
+        height: 276px;
+        padding: 0 15px 40px;
+        justify-content: center;
+    }
+    .header__main_content h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__main_content h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 381px) and (max-width: 390px) {
+    .wrap {
+        padding: 0 14px;
+    }
+    .wrapper {
+        padding: 20px 0;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        font-size: 15px;
+        line-height: 20px;
+        position: absolute;
+        top: 120px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        width: 356px;
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 280px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        width: 290px;
+        height: 276px;
+        padding: 0 15px 40px;
+        justify-content: center;
+    }
+    .header__main_content h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__main_content h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 391px) and (max-width: 403px) {
+    .wrap {
+        padding: 0 18px;
+    }
+    .wrapper {
+        padding: 20px 0;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        font-size: 15px;
+        line-height: 20px;
+        position: absolute;
+        top: 120px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        width: 380px;
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 280px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        width: 290px;
+        height: 276px;
+        padding: 0 15px 40px;
+        justify-content: center;
+    }
+    .header__main_content h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__main_content h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+
+}
+@media screen and (min-width: 404px) and (max-width: 420px) {
+    .wrap {
+        padding: 0 18px;
+    }
+    .wrapper {
+        padding: 20px 0;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        font-size: 15px;
+        line-height: 20px;
+        position: absolute;
+        top: 120px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        width: 380px;
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 280px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        width: 290px;
+        height: 276px;
+        padding: 0 15px 40px;
+        justify-content: center;
+    }
+    .header__main_content h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__main_content h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+
+}
+@media screen and (min-width: 421px) and (max-width: 441px) {
+    .wrap {
+        padding: 0 18px;
+    }
+    .wrapper {
+        padding: 20px 0;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        font-size: 15px;
+        line-height: 20px;
+        position: absolute;
+        top: 120px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        width: 400px;
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 280px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        width: 290px;
+        height: 276px;
+        padding: 0 15px 40px;
+        justify-content: center;
+    }
+    .header__main_content h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__main_content h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+
+}
+@media screen and (min-width: 442px) and (max-width: 462px)  {
+    .wrap {
+        padding: 0 25px;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        font-size: 15px;
+        line-height: 20px;
+        position: absolute;
+        top: 120px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        width: 400px;
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 260px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        width: 290px;
+        height: 276px;
+        padding: 0 15px 40px;
+        justify-content: center;
+    }
+    .header__main_content h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__main_content h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 463px) and (max-width: 500px)  {
+    .wrap {
+        padding: 0 25px;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        font-size: 15px;
+        line-height: 20px;
+        position: absolute;
+        top: 120px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        width: 438px;
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 260px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        width: 290px;
+        height: 276px;
+        padding: 0 15px 40px;
+        justify-content: center;
+    }
+    .header__main_content h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__main_content h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 560px)  {
+    .wrap {
+        padding: 0 45px;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        font-size: 15px;
+        line-height: 20px;
+        position: absolute;
+        top: 120px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        width: 456px;
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 260px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        padding: 0 15px 40px;
+        justify-content: center;
+    }
+    .header__main_content h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__main_content h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 561px) and (max-width: 600px)  {
+    .wrap {
+        padding: 0 45px;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        font-size: 15px;
+        line-height: 20px;
+        position: absolute;
+        top: 120px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        width: 510px;
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 260px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        padding: 0 15px 40px;
+        justify-content: center;
+    }
+    .header__main_content h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__main_content h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 680px)  {
+    .wrap {
+        padding: 0 45px;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 32px;
+    }
+    .header__main_content p {
+        position: absolute;
+        top: 150px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 220px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__bottom_description {
+        padding: 0 15px 40px;
+        justify-content: center;
+    }
+    .header__main_content h2 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .header__main_content h1{
+        font-size: 60px;
+        line-height: 56px;
+    }
+    .header__main_content h2, .header__main_content h1 {
+        visibility: hidden;
+    }
+    .header__main_content h2::after {
+        content: "Добро пожаловать";
+        visibility: visible;
+        display: block;
+    }
+    .header__main_content h1::before {
+        content: "В наш ресторан";
+        display: block;
+        visibility: visible;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 681px) and (max-width: 715px)  {
+    .wrap {
+        padding: 0 75px;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 42px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__main_content {
+        position: relative;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 14px;
+        align-items: center;
+        top: 220px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__main_content h2 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .header__main_content h1{
+        font-size: 60px;
+        line-height: 56px;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 716px) and (max-width: 768px)  {
+    .wrap {
+        padding: 0 115px;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__top_logo_img img {
+        height: 42px;
+    }
+    .header__main_content p::before, .header__main_content p::after {
+        display: none;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 24px;
+        align-items: center;
+        top: 220px;
+    }
+    .header__button {
+        visibility: hidden;
+    }
+    .header__button::before {
+        content: "МЕНЮ";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        height: 47px;
+        border: none;
+        visibility: visible;
+        cursor: pointer;
+        background-color: #FF7400;
+    }
+    .header__burger_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 900px)  {
+    .header__nav {
+        display: none;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 24px;
+        align-items: center;
+        top: 220px;
+    }
+    .header__burger_menu-2 {
+        display: block;
+    }
+}
+@media screen and (min-width: 901px) and (max-width: 1190px)  {
+    .header__nav {
+        display: none;
+    }
+    .header__bottom {
+        flex-direction: column;
+        row-gap: 24px;
+        align-items: center;
+        top: 180px;
+    }
+    .header__burger_menu-2 {
+        display: block;
+    }
+}
+@media screen and (min-width: 1600px) and (min-height: 900px)  {
+    .header__bottom {
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+@media screen and (max-width: 575px) {
+    .header_main {
+        width: 78vw;
+    }
+    .row {
+        margin: 0;
+    }
+    .header_main h2,.header_main h1 {
+        visibility: hidden;
+        font-size: 0;
+        line-height: 0;
+    }
+    .header_main h2::before {
+        content: "Добро пожаловать";
+        visibility: visible;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .header_main h1::before{
+        content: "В Наш ресторан";
+        visibility: visible;
+        display: block;
+        font-size: 35px;
+        line-height: 60px;
+    }
+    .header_main p {
+        font-size: 1em;
+        line-height: 2em;
+    }
+    .header_main p::before,.header_main p::after {
+        content: "";
+        display: none;
+    }
+    .header__bottom_menu {
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .header__bottom_menu {
+        flex-direction: column;
+    }
+}

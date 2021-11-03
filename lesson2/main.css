@@ -1,0 +1,41 @@
+body {
+    background-color: #f3c5e8;
+    margin: 0;
+}
+h1, h2{
+    text-align: center;
+}
+.strong-front-weight-normal {
+    font-weight: normal;
+}
+.main-store-img-size {
+    height: 350px;
+    width: 250px;
+}
+.main-store-border-red {
+    border: solid #ff3232;
+}
+
+.main-store-border-blue {
+    border: solid #badbff;
+}
+
+span {
+    text-decoration: underline #dc1c1c;
+}
+.color-text-blue{
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: silver;
+}

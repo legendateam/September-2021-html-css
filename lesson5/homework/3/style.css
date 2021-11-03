@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+.flex {
+    display: flex;
+}
+.height-200px  {
+    height: 200px;
+}
+.page {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.bg_bright {
+    background: #6795bd;
+}
+.bg_dark {
+    background: #060d49;
+}
+.wrap__widgets {
+    width: 255px;
+    margin: 16px 8px 16px 8px;
+}
+.widgets {
+    width: 800px;
+}
+.contact {
+    height: 500px;
+}

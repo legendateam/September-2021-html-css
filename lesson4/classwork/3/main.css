@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+   display: flex;
+    justify-content: center;
+}
+
+.home,.about,.kabobs {
+    background: #1b3fad;
+    width: 150px;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kabobs {
+    width: 320px;
+    height: 150px;
+}
+.shishkabobs,.bbq-kabobs,.summer-kabobs {
+    background: #060d49;
+    width: 100px;
+    height: 180px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    color: #ffffff;
+}

@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+.header {
+    height: 150px;
+    background: #1b3fad;
+}
+.h100px {
+    height: 100px;
+}
+.h800px {
+    height: 800px;
+}
+.navigation {
+    background: #060d49;
+}
+.wrap {
+    display: flex;
+}
+.main {
+    background: darkcyan;
+    width: 1200px;
+}
+.aside {
+    background: #9c9c9c;
+    width: 200px;
+}
+.footer {
+    background: #6795bd;
+}

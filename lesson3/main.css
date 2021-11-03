@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #badbff
+}
+h1,h2 {
+    text-align: center;
+    color: #060d49;
+}
+h3,h4,p {
+    margin-left: 4px;
+}
+.wrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-img {
+    border-right: 5px solid #30fc96;
+    width: 450px;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.medium-size-img {
+    width: 250px;
+    height: 200px;
+}
+.img-advertising {
+    border-radius: 30px;
+    margin-left: 60px;
+}
+.fatty-none {
+    font-weight: normal;
+}
+.course-list {
+    list-style: none;
+}
+.course-list-link {
+    text-decoration: none;
+    color: #000000;
+}
+a.course-list-link.green:hover {
+    color: #49ff1b;
+}
+a.course-list-link.white:hover {
+    color: #ffffff;
+}
+a.course-list-link.orange:hover {
+    color: #ea570d;
+}
+a.course-list-link.yellow:hover {
+    color: #eeff00;
+}
+a.course-list-link.blue:hover {
+    color: #1631d2;
+}
+a.course-list-link.red:hover {
+    color: #ff0303;
+ }
+a.course-list-link.type:hover {
+      color: #6c5c1e;
+  }
+a.course-list-link.yellowa:hover {
+    color: #747411;
+}
+a.course-list-link.yellowb:hover {
+    color: #a75b03;
+}
+a.course-list-link.greenmongo:hover {
+    color: #07ea26;
+}a.course-list-link.purple:hover {
+     color: #a400ff;
+ }
+a.course-list-link.brown:hover {
+    color: #07a39f;
+}

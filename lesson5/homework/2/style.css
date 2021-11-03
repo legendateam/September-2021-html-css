@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+.height-150px {
+    height: 150px;
+}
+.post_background_h300-w700px {
+    height: 300px;
+    width: 1100px;
+    background: #30fc96;
+}
+.header {
+    background: #49ff1b;
+    margin-bottom: 5px;
+}
+.wrap {
+    display: flex;
+}
+.wrap__menu {
+    background: #ff00ce;
+    height: 605px;
+    width: 250px;
+    margin: 5px 5px 5px 0;
+}
+.footer {
+    background: #6c5c1e;
+    margin-top: 5px;
+}
+.wrap__post_top, .wrap__post_bottom {
+    margin: 5px 0 5px 5px;
+}

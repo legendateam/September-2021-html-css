@@ -23,6 +23,7 @@
     .header__top_nav_first_ul {
         column-gap: 20px;
     }
+
     .wrapper {
         padding: 0 20px;
     }
@@ -511,20 +512,24 @@
         column-gap: 54px;
         margin-top: 22px;
     }
-    .footer_hr {
-        border: 1px solid #1D3044;
-        width: 1000px;
-        margin-top: 25px;
-        left: -20%;
-        position: absolute;
+    .overflow {
+        overflow: hidden;
     }
     .footer_bottom_date {
         font-size: 14px;
         line-height: 16px;
         margin-top: 40px;
-        padding-bottom: 15px;
+        padding: 15px 0;
         text-align: left;
-        margin-left: 10px;
+        position: relative;
+    }
+    .footer_bottom_date::before {
+        content: "";
+        border: 1px solid #1D3044;
+        bottom: 50px;
+        position: absolute;
+        width: 820px;
+        left: -50px;
     }
     .footer_border_wrap {
         column-gap: 220px;
@@ -541,6 +546,9 @@
     .header__top {
         height: 34px;
         padding-left: 15px;
+    }
+    .overflow {
+        overflow: hidden;
     }
     .header__top_nav_second_ul li a,.header__top_nav_first_ul li a,
     .header__top_nav_first_ul li{
@@ -999,6 +1007,15 @@
         margin-top: 40px;
         padding-bottom: 15px;
         text-align: left;
+        position: relative;
+    }
+    .footer_bottom_date::before {
+        content: "";
+        border: 1px solid #1D3044;
+        bottom: 40px;
+        position: absolute;
+        width: 520px;
+        left: -50px;
     }
     .wrapper_mob {
         padding-right: 0;
@@ -1008,6 +1025,9 @@
     .header__top {
         height: 34px;
         padding-left: 15px;
+    }
+    .overflow {
+        overflow: hidden;
     }
     .header__top_nav_second_ul li a,.header__top_nav_first_ul li a,
     .header__top_nav_first_ul li{
@@ -1454,19 +1474,21 @@
         justify-content: start;
         column-gap: 44px;
     }
-    .footer_hr {
-        border: 1px solid #1D3044;
-        width: 400px;
-        margin-top: 25px;
-        left: -20%;
-        position: absolute;
-    }
     .footer_bottom_date {
         font-size: 12px;
         line-height: 14px;
         margin-top: 40px;
         padding-bottom: 15px;
         text-align: left;
+        position: relative;
+    }
+    .footer_bottom_date::before {
+        content: "";
+        border: 1px solid #1D3044;
+        bottom: 40px;
+        position: absolute;
+        width: 520px;
+        left: -50px;
     }
     .wrapper {
         padding: 0 15px;

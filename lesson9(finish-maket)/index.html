@@ -21,7 +21,7 @@
                         <img src="./img/location_icon.png" alt="location_icon">
                         <li>Ваш город:&nbsp;<a href="#">Москва</a></li>
                     </div>
-                    <li class="d-block d-lg-none">
+                    <li class="d-block d-md-none">
                         <a href="#" class="text-decoration-none">Еще
                             <img src="./img/arrow_navigation.png" alt="arrow_navigation"></a>
                     </li>
@@ -57,27 +57,40 @@
                         для АКПП</p>
                 </div>
             </div>
-            <div class="header__center_clock d-none d-lg-flex">
+            <div class="header__center_clock d-none d-xl-flex">
                 <img src="./img/clock.png" alt="clock">
                 <div class="header__center_clock_time-work">
                     <p>Мы работаем: будни - 9:00-21:00</p>
                     <p class="header__center_clock_time-work-r">сб. - 10:00-15:</p>
                 </div>
             </div>
-            <div class="header__center_address d-none d-lg-flex">
+            <div class="header__center_clock d-none d-md-flex d-xl-none">
+                <div class="header__center_clock_time-work d-flex">
+                    <img src="./img/clock.png" alt="clock">
+                    <div>
+                        <p>Мы работаем: будни - 9:00-21:00</p>
+                        <p class="header__center_clock_time-work-r">сб. - 10:00-15:</p>
+                        <div class="header__center_address d-flex d-xl-none">
+                            <img src="./img/header_address.png" alt="address">
+                            <p class="d-flex">Невский пр-т, д. 45</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__center_address d-none d-xl-flex">
                 <img src="./img/header_address.png" alt="address">
                 <p class="d-flex">Невский пр-т, д. 45</p>
             </div>
-            <button class="header_button d-none d-lg-flex">
+            <button class="header_button d-none d-xl-flex">
                 <img src="./img/WhatsApp.png" alt="WhatsApp">Напишите нам в WhatsApp
             </button>
-            <div class="header__center_phone d-none d-lg-block">
+            <div class="header__center_phone d-none d-xxl-block">
                 <h2 class="fw-bold">+7 383 291 92 86</h2>
                 <a href="#" class="d-flex">форма обратной связи</a>
             </div>
-            <div class="d-block d-lg-none h-mobile83">
+            <div class="d-block d-xl-none h-mobile83">
                 <div class="header__center_phone">
-                    <h2 class="fw-bold d-flex d-lg-block">+7 383 291 92 86</h2>
+                    <h2 class="fw-bold d-flex d-xl-block">+7 383 291 92 86</h2>
                     <a href="#" class="d-flex">форма обратной связи</a>
                 </div>
                 <div class="position_relative_mob">
@@ -95,7 +108,7 @@
                     <span class="header__bottom_burger-menu-s"></span>
                     <span class="header__bottom_burger-menu-s"></span>
                 </div>
-                <p class="fw-bold d-none d-lg-inline">Каталог</p>
+                <p class="fw-bold d-none d-md-inline button_hidden_text_castl">Каталог</p>
             </button>
 
             <nav class="navbar">
@@ -104,30 +117,30 @@
                         <input type="text" class="form-control header__bottom_input border-0"
                                placeholder="Поиск по наименованию или артикулу"
                                aria-label="Поиск по наименованию или артикулу" aria-describedby="basic-addon1">
-                        <button class="input-group-text border-0 button_hidden_text_castl " id="basic-addon1">Найти
-                            <img src="./img/search_icon.png" class="d-block d-lg-none" alt="search"></button>
+                        <button class="input-group-text border-0 button_hidden_text_castl button_hidden_text_castlv2" id="basic-addon1">Найти
+                            <img src="./img/search_icon.png" class="d-block d-md-none" alt="search"></button>
                     </div>
                 </form>
             </nav>
-            <div class="header__bottom_login d-none d-lg-flex">
-                <div class="header__bottom_login_icon d-flex">
+            <div class="header__bottom_login d-none d-md-flex">
+                <div class="header__bottom_login_icon d-flex flex-column flex-xl-row">
                     <img src="./img/user.png" alt="user">
                     <a href="#" class="text-decoration-none">Войти</a>
                 </div>
-                <div class="header__bottom_login_icon p_relative border_icon_b_a d-flex">
+                <div class="header__bottom_login_icon p_relative border_icon_b_a d-flex flex-column flex-xl-row">
                     <img src="./img/heart.png" alt="heart">
                     <a href="#" class="text-decoration-none">Избранное</a>
                 </div>
-                <div class="header__bottom_login_icon d-flex">
+                <div class="header__bottom_login_icon d-flex flex-column flex-xl-row">
                     <img src="./img/cart.png" alt="cart">
-                    <a href="#" class="text-decoration-none">В корзине
+                    <a href="#" class="text-decoration-none headerb_cart">В корзине
                         нет товаров</a>
                 </div>
             </div>
         </div>
     </header>
     <div class="main_content wrapper">
-        <div class="main_content_top d-block d-lg-flex">
+        <div class="main_content_top d-block d-md-flex">
             <div id="carouselWithIndicators" class="carousel slide" data-bs-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="0" class="active"></li>
@@ -136,17 +149,17 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./img/background.png" class="d-none d-lg-block w-100 0" alt="Slide 1">
-                        <img src="./img/background.png" class="d-block d-lg-none bg_main_carousel_m 0" alt="Slide 1">
+                        <img src="./img/background.png" class="d-none d-xl-block w-100 0" alt="Slide 1">
+                        <img src="./img/background.png" class="d-block d-xl-none bg_main_carousel_m 0" alt="Slide 1">
                         <div class="carousel-caption main_content_carousel d-flex">
                             <div class="main_content_carousel_bg d-flex">
                                 <h1>Сцепление в сборе</h1>
                                 <a href="#">0AMCLUTCH</a>
-                                <div class="main_content_carousel_sale_price d-none d-lg-flex">
+                                <div class="main_content_carousel_sale_price d-none d-xl-flex">
                                     <h2>14 499,99 ₽</h2>
                                     <p class="text-decoration-line-through">18 550,99 ₽ </p>
                                 </div>
-                                <div class="main_content_carousel_sale_price d-block d-lg-none">
+                                <div class="main_content_carousel_sale_price d-block d-xl-none">
                                     <p class="text-decoration-line-through">18 550,99 ₽ </p>
                                     <h2>14 499,99 ₽</h2>
                                 </div>
@@ -159,17 +172,17 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/background.png" class="d-none d-lg-block w-100 0" alt="Slide 2">
-                        <img src="./img/background.png" class="d-block d-lg-none bg_main_carousel_m 0" alt="Slide 2">
+                        <img src="./img/background.png" class="d-none d-xl-block w-100 0" alt="Slide 2">
+                        <img src="./img/background.png" class="d-block d-xl-none bg_main_carousel_m 0" alt="Slide 2">
                         <div class="carousel-caption main_content_carousel d-flex">
                             <div class="main_content_carousel_bg d-flex">
                                 <h1>Сцепление в сборе</h1>
                                 <a href="#">0AMCLUTCH</a>
-                                <div class="main_content_carousel_sale_price d-none d-lg-flex">
+                                <div class="main_content_carousel_sale_price d-none d-xl-flex">
                                     <h2>14 499,99 ₽</h2>
                                     <p class="text-decoration-line-through">18 550,99 ₽ </p>
                                 </div>
-                                <div class="main_content_carousel_sale_price d-block d-lg-none">
+                                <div class="main_content_carousel_sale_price d-block d-xl-none">
                                     <p class="text-decoration-line-through">18 550,99 ₽ </p>
                                     <h2>14 499,99 ₽</h2>
                                 </div>
@@ -182,17 +195,17 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/background.png" class="d-none d-lg-block w-100 0" alt="Slide 3">
-                        <img src="./img/background.png" class="d-block d-lg-none bg_main_carousel_m 0" alt="Slide 3">
+                        <img src="./img/background.png" class="d-none d-xl-block w-100 0" alt="Slide 3">
+                        <img src="./img/background.png" class="d-block d-xl-none bg_main_carousel_m 0" alt="Slide 3">
                         <div class="carousel-caption main_content_carousel d-flex">
                             <div class="main_content_carousel_bg d-flex">
                                 <h1>Сцепление в сборе</h1>
                                 <a href="#">0AMCLUTCH</a>
-                                <div class="main_content_carousel_sale_price d-none d-lg-flex">
+                                <div class="main_content_carousel_sale_price d-none d-xl-flex">
                                     <h2>14 499,99 ₽</h2>
                                     <p class="text-decoration-line-through">18 550,99 ₽ </p>
                                 </div>
-                                <div class="main_content_carousel_sale_price d-block d-lg-none">
+                                <div class="main_content_carousel_sale_price d-block d-xl-none">
                                     <p class="text-decoration-line-through">18 550,99 ₽ </p>
                                     <h2>14 499,99 ₽</h2>
                                 </div>
@@ -235,11 +248,13 @@
                             <div class="d-flex main_content_card_top_price_btn">
                                 <div class="main_content_card_top_sale d-flex">
                                     <div class="main_content_card_top_pp d-flex">
-                                        <p class="fw-bold main_content_card_top_price">4 430₽</p>
-                                        <p class="main_content_card_top_old_price text-decoration-line-through">5 430₽</p>
+                                        <p class="fw-bold main_content_card_top_price d-mob-none">4 430₽</p>
+                                        <p class="main_content_card_top_old_price text-decoration-line-through  d-mob-none">5 430₽</p>
+                                        <p class="main_content_card_top_old_price text-decoration-line-through  d-none d-md-block d-lg-none">5 430₽</p>
+                                        <p class="fw-bold main_content_card_top_price  d-none d-md-block d-lg-none">4 430₽</p>
                                     </div>
                                 </div>
-                                <button class="main_content_top_button main_content_card_top_sale_button border-0">
+                                <button class="main_content_top_button main_content_card_top_sale_button button_mar border-0">
                                     <img src="./img/cart_little_w.png" alt="cart">
                                 </button>
                             </div>
@@ -257,11 +272,13 @@
                                 <div class="d-flex main_content_card_top_price_btn">
                                 <div class="main_content_card_top_sale d-flex">
                                     <div class="main_content_card_top_pp d-flex">
-                                        <p class="fw-bold main_content_card_top_price">4 430₽</p>
-                                        <p class="main_content_card_top_old_price text-decoration-line-through">5 430₽</p>
+                                        <p class="fw-bold main_content_card_top_price d-mob-none">4 430₽</p>
+                                        <p class="main_content_card_top_old_price text-decoration-line-through  d-mob-none">5 430₽</p>
+                                        <p class="main_content_card_top_old_price text-decoration-line-through  d-none d-md-block d-lg-none">5 430₽</p>
+                                        <p class="fw-bold main_content_card_top_price d-none d-md-block d-lg-none">4 430₽</p>
                                     </div>
                                 </div>
-                                <button class="main_content_top_button main_content_card_top_sale_button border-0">
+                                <button class="main_content_top_button button_mar  main_content_card_top_sale_button border-0">
                                     <img src="./img/cart_little_w.png" alt="cart">
                                 </button>
                             </div>
@@ -426,7 +443,7 @@
                         </button>
                         <div class="main_content_bottom_item_card_img d-flex">
                             <img src="./img/heart_icon.png" alt="heart">
-                            <img src="./img/rating_icon.png" class="d-none d-lg-block" alt="rating">
+                            <img src="./img/rating_icon.png" class="d-none d-xl-block" alt="rating">
                         </div>
                     </div>
                 </div>
@@ -450,7 +467,7 @@
                         </button>
                         <div class="main_content_bottom_item_card_img d-flex">
                             <img src="./img/heart_icon.png" alt="heart">
-                            <img src="./img/rating_icon.png" class="d-none d-lg-block" alt="rating">
+                            <img src="./img/rating_icon.png" class="d-none d-xl-block" alt="rating">
                         </div>
                     </div>
                 </div>
@@ -469,11 +486,11 @@
                         </button>
                         <div class="main_content_bottom_item_card_img d-flex">
                             <img src="./img/heart_icon.png" alt="heart">
-                            <img src="./img/rating_icon.png" class="d-none d-lg-block" alt="rating">
+                            <img src="./img/rating_icon.png" class="d-none d-xl-block" alt="rating">
                         </div>
                     </div>
                 </div>
-                <div class="main_content_bottom_item-card">
+                <div class="main_content_bottom_item-card d-md-none d-lg-block">
                     <img src="./img/avt-zap_main_page_v1.png" class="margin_img" alt="avt-zap_main_page">
                     <div class="main_content_bottom_item_card_description">
                         <p class="main_content_bottom_item_card_p"><img src="./img/star.png" alt="star"><span class="margin-left">4.5</span>
@@ -488,7 +505,7 @@
                         </button>
                         <div class="main_content_bottom_item_card_img d-flex">
                             <img src="./img/heart_icon.png" alt="heart">
-                            <img src="./img/rating_icon.png" class="d-none d-lg-block" alt="rating">
+                            <img src="./img/rating_icon.png" class="d-none d-xl-block" alt="rating">
                         </div>
                     </div>
                 </div>
@@ -508,7 +525,7 @@
                         </button>
                         <div class="main_content_bottom_item_card_img d-flex">
                             <img src="./img/heart_icon.png" alt="heart">
-                            <img src="./img/rating_icon.png" class="d-none d-lg-block" alt="rating">
+                            <img src="./img/rating_icon.png" class="d-none d-xl-block" alt="rating">
                         </div>
                     </div>
                 </div>
@@ -532,7 +549,7 @@
                         </button>
                         <div class="main_content_bottom_item_card_img d-flex">
                             <img src="./img/heart_icon.png" alt="heart">
-                            <img src="./img/rating_icon.png" class="d-none d-lg-block" alt="rating">
+                            <img src="./img/rating_icon.png" class="d-none d-xl-block" alt="rating">
                         </div>
                     </div>
                 </div>
@@ -551,11 +568,11 @@
                         </button>
                         <div class="main_content_bottom_item_card_img d-flex">
                             <img src="./img/heart_icon.png" alt="heart">
-                            <img src="./img/rating_icon.png" class="d-none d-lg-block" alt="rating">
+                            <img src="./img/rating_icon.png" class="d-none d-xl-block" alt="rating">
                         </div>
                     </div>
                 </div>
-                <div class="main_content_bottom_item-card">
+                <div class="main_content_bottom_item-card d-md-none d-lg-block">
                     <img src="./img/avt-zap_main_page_v1.png" class="margin_img" alt="avt-zap_main_page">
                     <div class="main_content_bottom_item_card_description">
                         <p class="main_content_bottom_item_card_p"><img src="./img/star.png" alt="star">
@@ -571,7 +588,7 @@
                         </button>
                         <div class="main_content_bottom_item_card_img d-flex">
                             <img src="./img/heart_icon.png" alt="heart">
-                            <img src="./img/rating_icon.png" class="d-none d-lg-none" alt="rating">
+                            <img src="./img/rating_icon.png" class="d-none d-xl-none" alt="rating">
                         </div>
                     </div>
                 </div>
@@ -583,12 +600,12 @@
     </div>
     <div class="footer_top wrapper">
         <h2>НОВОСТИ</h2>
-        <div class="footer_border d-none d-lg-block wrapper">
+        <div class="footer_border d-none d-md-block wrapper">
             <div class="footer_border_wrap">
                 <div class="footer_border_circle"></div>
                 <div class="footer_border_circle"></div>
                 <div class="footer_border_circle"></div>
-                <div class="footer_border_circle"></div>
+                <div class="footer_border_circle cicrlce_none"></div>
             </div>
         </div>
         <div class="footer_top_description_cards d-flex">
@@ -618,7 +635,7 @@
                         </ul>
                 </div>
             </div>
-            <div class="footer_top_description_card">
+            <div class="footer_top_description_card d-md-none d-lg-block">
                 <button class="footer_button_under-border border-0">3 ноября</button>
                 <div class="footer_top_description">
                     <a href="#">Очередная порция обновлений для
@@ -718,7 +735,7 @@
                                 <input type="text" class="form-control footer__bottom_input border-0"
                                        placeholder="Введите ваш email"
                                        aria-label="Введите ваш email" aria-describedby="basic-addon2">
-                                <button class="input-group-text border-0 button_sub" id="basic-addon2">Подписаться</button>
+                                <button class="input-group-text border-0 button_sub" id="basic-addon3">Подписаться</button>
                             </div>
                         </form>
                     </div>
@@ -733,7 +750,117 @@
             <hr class="footer_hr d-block d-lg-none">
             <p class="footer_bottom_date">2017 © ООО «АВТ-ЗАП» - запчасти для акпп</p>
         </div>
+    </footer>
+    <footer class="d-none d-md-block d-lg-none">
+        <div class="wrapper">
+            <div class="footer_bottom d-flex">
+                <div>
+                    <h3 class="footer_bottom_left_h3">КАТАЛОГ</h3>
+                    <ol>
+                        <li><a href="#">Каталог запчастей</a></li>
+                        <li><a href="#">Масла</a></li>
+                        <li><a href="#">Фильтра</a></li>
+                        <li><a href="#">Радиаторы</a></li>
+                        <li><a href="#">Sonnax</a></li>
+                        <li><a href="#">Manual</a></li>
+                        <li><a href="#">Новинки</a></li>
+                        <li><a href="#">Акции</a></li>
+                    </ol>
+                </div>
+                <div>
+                    <h3 class="footer_bottom_left_h3 mar25-top-mob">РУБРИКАТОР</h3>
+                    <ol>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">Гарантия</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Журнал</a></li>
+                        <li><a href="#">О магазине</a></li>
+                        <li><a href="#">Контактная информация</a></li>
+                    </ol>
+                </div>
+                <div class="footer_bottom_info">
+                    <h3 class="footer_bottom_left_h3 mar25-top-mob">ИНФОРМАЦИЯ</h3>
+                    <ol>
+                        <li><a href="#">Пользовательское соглашение
+                            об использовании персональных данных</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Соглашение на рассылку
+                            рекламных материалов</a></li>
+                        <li><a href="#">Политика возвратов</a></li>
+                    </ol>
+                    <div class="method_pay">
+                        <p class="method_pay_p">Мы принимаем</p>
+                        <img src="./img/card.png" alt="card">
+                    </div>
+                </div>
+                <div class="footer_bottom_right_input_form">
+                    <div class="d-flex footer_bottom_right_input_contact">
+                        <div>
+                            <h3 class="footer_bottom_left_h3 mar25-top-mob">КОНТАКТЫ</h3>
+                            <p class="footer_bottom_right_contact mar_top12">+7 383 291 92 86</p>
+                            <p class="footer_bottom_right_contact"><a href="#">info@avt-zap.ru</a></p>
+                        </div>
+                        <div>
+                            <h3 class="footer_bottom_left_h3">АДРЕС</h3>
+                            <p class="footer_bottom_right_contact mar_top12">г. Новосибирск,<br>
+                                ул. Планировочная, 5, офис 105</p>
+                        </div>
+                    </div>
+                    <div class="footer_bottom_right_input_bottom d-flex">
+                        <p class="footer_bottom_right_input_p">
+                            <span class="footer_bottom_right_input_text">
+                                Мы онлайн, воспользуйтесь</span>
+                            <span class="d-inline d-lg-none">Форма обратной связи</span>
 
+
+                        <div class="footer_bottom_right_bot_input_form">
+                        <p class="footer_bottom_right_input_text subscribe">Подпишитесь на нашу расслыку и
+                            вы первыми узнаете о скидках и акциях</p>
+                            <form class="container-fluid">
+                                <div class="input-group">
+                                    <input type="text" class="form-control footer__bottom_input border-0"
+                                           placeholder="Введите ваш email"
+                                           aria-label="Введите ваш email" aria-describedby="basic-addon2">
+                                    <button class="input-group-text border-0 button_sub" id="basic-addon4">Подписаться</button>
+                                </div>
+                            </form>
+                        <div class="footer_bottom_right_soc_networks d-flex">
+                            <img src="./img/facebook_icon.png" alt="facebook">
+                            <img src="./img/twitter_icon.png" alt="twitter">
+                            <img src="./img/telegram_icon.png" alt="telegram">
+                            <img src="./img/google_icon.png" alt="google">
+                        </div>
+                        </div>
+                    </div>
+
+
+
+                            &nbsp; <span class="d-none d-lg-inline">Форма обратной связи</span></p>
+                        <p class="footer_bottom_right_input_text subscribe d-none">Подпишитесь на нашу расслыку и
+                            вы первыми узнаете о скидках и акциях</p>
+                    </div>
+                    <div class="footer_bottom_right_bot_input_form d-none">
+                        <form class="container-fluid">
+                            <div class="input-group">
+                                <input type="text" class="form-control footer__bottom_input border-0"
+                                       placeholder="Введите ваш email"
+                                       aria-label="Введите ваш email" aria-describedby="basic-addon2">
+                                <button class="input-group-text border-0 button_sub" id="basic-addon2">Подписаться</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="footer_bottom_right_soc_networks d-md-none d-flex">
+                        <img src="./img/facebook_icon.png" alt="facebook">
+                        <img src="./img/twitter_icon.png" alt="twitter">
+                        <img src="./img/telegram_icon.png" alt="telegram">
+                        <img src="./img/google_icon.png" alt="google">
+                    </div>
+
+                </div>
+            </div>
+            <hr class="footer_hr d-block d-xl-none">
+            <p class="footer_bottom_date">2017 © ООО «АВТ-ЗАП» - запчасти для акпп</p>
     </footer>
 </div>
 

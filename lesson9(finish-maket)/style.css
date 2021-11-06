@@ -46,6 +46,7 @@ body {
 .header__top a {
     font-size: 14px;
     line-height: 16px;
+    font-weight: 500;
 }
 .header__top_nav_first_ul_img {
     column-gap: 4px;
@@ -56,7 +57,6 @@ body {
 .wrapper {
     padding: 0 283px;
 }
-
 .header__center {
     justify-content: space-between;
 }
@@ -134,13 +134,11 @@ body {
     line-height: 14px;
     color: #0F2438;
     opacity: 70%;
+    justify-content: end;
 }
 .header__center_phone {
     width: 158px;
     margin-top: 41px;
-}
-.header__center_phone a {
-    justify-content: end;
 }
 .input-group input{
     height: 53px;
@@ -242,8 +240,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.main_content_carousel_circle {
     background-color: #FFFFFF;
     width: 40px;
     height: 40px;
@@ -318,7 +314,6 @@ h1 {
     text-align: left ;
     flex-direction: column;
     row-gap: 10px;
-    bottom: 250px;
     position: absolute;
     left: -10px;
     bottom: 60px;
@@ -432,14 +427,14 @@ h1 {
 .main-content_center_carousel {
     column-gap: 30px;
 }
-.carousel-control-prev {
+.carousel-control-prev-icon {
     position: inherit;
-    left: -77px;
+    left: -25px;
     top: 35%;
 }
 .carousel-control-next-icon {
     position: inherit;
-    right: -10px;
+    right: 5px;
     top: 35%;
 }
 .main_content_btn_sort button {
